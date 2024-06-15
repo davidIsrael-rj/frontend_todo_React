@@ -4,11 +4,14 @@ import '@fortawesome/fontawesome-svg-core';
 import './App.css';
 
 import React from 'react';
+import Todo from './todo/todo';
+import About from './about/about';
 
 function App() {
   return (
     <div className='container'>
-      <h1>Teste</h1>
+      <Todo />
+      <About/>
     </div>
   );
 }
