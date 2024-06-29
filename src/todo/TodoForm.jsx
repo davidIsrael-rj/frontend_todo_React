@@ -42,7 +42,7 @@ class TodoForm extends Component {
                <IconButton
                   btnStyle='info'
                   icon='search'
-                  onClick={()=>search()} />
+                  onClick={search} />
                <IconButton
                   btnStyle='default'
                   icon='close'

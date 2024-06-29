@@ -20,7 +20,7 @@ const todoReducer = (state = INITIAL_STATE, action) => {
         case 'DESCRIPTION_CHANGED':
             return { ...state, description: action.payload }
         case 'TODO_SEARCHED':
-            return { ...state, list: action.payload.data }
+            return { ...state, list: action.payload}
         case 'TODO_ADDED':
         case 'TODO_CLEAR':
             return{...state, description: ''}
